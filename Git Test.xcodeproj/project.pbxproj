@@ -21,6 +21,7 @@
 		43108D54191B28B70097B60E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43108D36191B28B70097B60E /* UIKit.framework */; };
 		43108D5C191B28B70097B60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43108D5A191B28B70097B60E /* InfoPlist.strings */; };
 		43108D5E191B28B70097B60E /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43108D5D191B28B70097B60E /* Git_TestTests.m */; };
+		43108D69191B32EF0097B60E /* HMRTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 43108D68191B32EF0097B60E /* HMRTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		43108D59191B28B70097B60E /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		43108D5B191B28B70097B60E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43108D5D191B28B70097B60E /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		43108D67191B32EF0097B60E /* HMRTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRTest.h; sourceTree = "<group>"; };
+		43108D68191B32EF0097B60E /* HMRTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMRTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				43108D44191B28B70097B60E /* Main.storyboard */,
 				43108D47191B28B70097B60E /* HMRViewController.h */,
 				43108D48191B28B70097B60E /* HMRViewController.m */,
+				43108D67191B32EF0097B60E /* HMRTest.h */,
+				43108D68191B32EF0097B60E /* HMRTest.m */,
 				43108D4A191B28B70097B60E /* Images.xcassets */,
 				43108D39191B28B70097B60E /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				43108D43191B28B70097B60E /* HMRAppDelegate.m in Sources */,
 				43108D3F191B28B70097B60E /* main.m in Sources */,
 				43108D49191B28B70097B60E /* HMRViewController.m in Sources */,
+				43108D69191B32EF0097B60E /* HMRTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
